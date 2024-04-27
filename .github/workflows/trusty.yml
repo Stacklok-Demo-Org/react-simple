@@ -16,6 +16,6 @@ jobs:
       - name: TrustyPkg Action
         uses: stacklok/trusty-action@v0.0.1
         with:
-          score_threshold: 5
+          score_threshold: 8
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
