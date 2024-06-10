@@ -1,4 +1,3 @@
-# Use the official Golang image as the base image with a specific tag
 FROM golang:latest
 
 # Set the Current Working Directory inside the container
